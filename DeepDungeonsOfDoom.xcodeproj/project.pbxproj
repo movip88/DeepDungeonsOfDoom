@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE19BEEC21B2947000A1FC44 /* InventarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE19BEEB21B2947000A1FC44 /* InventarioView.swift */; };
+		DE19BEEE21B3007B00A1FC44 /* VistaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE19BEED21B3007B00A1FC44 /* VistaItem.swift */; };
+		DE19BEF021B30DE000A1FC44 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE19BEEF21B30DE000A1FC44 /* ShopView.swift */; };
+		DE19BEF321B3109D00A1FC44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE19BEF121B3109D00A1FC44 /* Main.storyboard */; };
+		DE21209C21D10EF000AC5D95 /* Vidas.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE21209B21D10EF000AC5D95 /* Vidas.swift */; };
+		DE2120A921D2C62C00AC5D95 /* ataque.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE2120A821D2C62C00AC5D95 /* ataque.mp3 */; };
+		DE2120AB21D2CC3400AC5D95 /* Dao.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2120AA21D2CC3400AC5D95 /* Dao.swift */; };
+		DE2120AD21D2DB1500AC5D95 /* dinero.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE2120AC21D2DB1500AC5D95 /* dinero.mp3 */; };
+		DE28BAAF21AF419200436412 /* VistaStaff.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE28BAAE21AF419200436412 /* VistaStaff.swift */; };
+		DE4613AF21A8522F001621CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4613AE21A8522F001621CE /* AppDelegate.swift */; };
+		DE4613B121A8522F001621CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4613B021A8522F001621CE /* ViewController.swift */; };
+		DE4613B621A85230001621CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4613B521A85230001621CE /* Assets.xcassets */; };
+		DE4613B921A85230001621CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4613B721A85230001621CE /* LaunchScreen.storyboard */; };
+		DE4613C421A85230001621CE /* DeepDungeonsOfDoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4613C321A85230001621CE /* DeepDungeonsOfDoomTests.swift */; };
+		DE4613CF21A85230001621CE /* DeepDungeonsOfDoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4613CE21A85230001621CE /* DeepDungeonsOfDoomUITests.swift */; };
+		DE4613DD21A854C4001621CE /* Personaje.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4613DC21A854C4001621CE /* Personaje.swift */; };
+		DE5346C021B9534A00EE3611 /* VistaBatalla.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5346BF21B9534A00EE3611 /* VistaBatalla.swift */; };
+		DE6017FB21B3E66E00279422 /* EstiloBoton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6017FA21B3E66E00279422 /* EstiloBoton.swift */; };
+		DE6017FD21B3F17B00279422 /* Mounstruo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6017FC21B3F17B00279422 /* Mounstruo.swift */; };
+		DE6017FF21B3F8FD00279422 /* VistaMounstruo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6017FE21B3F8FD00279422 /* VistaMounstruo.swift */; };
+		DE60180121B3FB7E00279422 /* DungeonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE60180021B3FB7E00279422 /* DungeonView.swift */; };
+		DE66624B21B84575000DCC5B /* ViewControllerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE66624A21B84575000DCC5B /* ViewControllerMain.swift */; };
+		DED78E5621C18BB500735597 /* BattleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED78E5521C18BB500735597 /* BattleView.swift */; };
+		DED8BF7A21D691CC00FC8D38 /* empate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DED8BF7921D691CC00FC8D38 /* empate.mp3 */; };
+		DEE29F1121A8755D0084EA6D /* Staff.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE29F1021A8755D0084EA6D /* Staff.swift */; };
+		DEE29F1321A876760084EA6D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE29F1221A876760084EA6D /* Item.swift */; };
+		DEE29F1521A87B0F0084EA6D /* VistaHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE29F1421A87B0F0084EA6D /* VistaHero.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE4613C021A85230001621CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE4613A321A8522E001621CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE4613AA21A8522E001621CE;
+			remoteInfo = DeepDungeonsOfDoom;
+		};
+		DE4613CB21A85230001621CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE4613A321A8522E001621CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE4613AA21A8522E001621CE;
+			remoteInfo = DeepDungeonsOfDoom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE19BEEB21B2947000A1FC44 /* InventarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventarioView.swift; sourceTree = "<group>"; };
+		DE19BEED21B3007B00A1FC44 /* VistaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaItem.swift; sourceTree = "<group>"; };
+		DE19BEEF21B30DE000A1FC44 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		DE19BEF221B3109D00A1FC44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE21209B21D10EF000AC5D95 /* Vidas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vidas.swift; sourceTree = "<group>"; };
+		DE2120A821D2C62C00AC5D95 /* ataque.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ataque.mp3; sourceTree = "<group>"; };
+		DE2120AA21D2CC3400AC5D95 /* Dao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dao.swift; sourceTree = "<group>"; };
+		DE2120AC21D2DB1500AC5D95 /* dinero.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dinero.mp3; sourceTree = "<group>"; };
+		DE28BAAE21AF419200436412 /* VistaStaff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaStaff.swift; sourceTree = "<group>"; };
+		DE4613AB21A8522E001621CE /* DeepDungeonsOfDoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepDungeonsOfDoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE4613AE21A8522F001621CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE4613B021A8522F001621CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE4613B521A85230001621CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE4613B821A85230001621CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE4613BA21A85230001621CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE4613BF21A85230001621CE /* DeepDungeonsOfDoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepDungeonsOfDoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE4613C321A85230001621CE /* DeepDungeonsOfDoomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepDungeonsOfDoomTests.swift; sourceTree = "<group>"; };
+		DE4613C521A85230001621CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE4613CA21A85230001621CE /* DeepDungeonsOfDoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepDungeonsOfDoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE4613CE21A85230001621CE /* DeepDungeonsOfDoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepDungeonsOfDoomUITests.swift; sourceTree = "<group>"; };
+		DE4613D021A85230001621CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE4613DC21A854C4001621CE /* Personaje.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personaje.swift; sourceTree = "<group>"; };
+		DE5346BF21B9534A00EE3611 /* VistaBatalla.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaBatalla.swift; sourceTree = "<group>"; };
+		DE6017FA21B3E66E00279422 /* EstiloBoton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstiloBoton.swift; sourceTree = "<group>"; };
+		DE6017FC21B3F17B00279422 /* Mounstruo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mounstruo.swift; sourceTree = "<group>"; };
+		DE6017FE21B3F8FD00279422 /* VistaMounstruo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaMounstruo.swift; sourceTree = "<group>"; };
+		DE60180021B3FB7E00279422 /* DungeonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonView.swift; sourceTree = "<group>"; };
+		DE66624A21B84575000DCC5B /* ViewControllerMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMain.swift; sourceTree = "<group>"; };
+		DED78E5521C18BB500735597 /* BattleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleView.swift; sourceTree = "<group>"; };
+		DED8BF7921D691CC00FC8D38 /* empate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = empate.mp3; sourceTree = "<group>"; };
+		DEE29F1021A8755D0084EA6D /* Staff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Staff.swift; sourceTree = "<group>"; };
+		DEE29F1221A876760084EA6D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		DEE29F1421A87B0F0084EA6D /* VistaHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaHero.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE4613A821A8522E001621CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4613BC21A85230001621CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4613C721A85230001621CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE21209F21D1741700AC5D95 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE4613B021A8522F001621CE /* ViewController.swift */,
+				DE19BEEB21B2947000A1FC44 /* InventarioView.swift */,
+				DE19BEEF21B30DE000A1FC44 /* ShopView.swift */,
+				DE60180021B3FB7E00279422 /* DungeonView.swift */,
+				DE66624A21B84575000DCC5B /* ViewControllerMain.swift */,
+				DED78E5521C18BB500735597 /* BattleView.swift */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		DE2120A221D1749400AC5D95 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				DE4613DC21A854C4001621CE /* Personaje.swift */,
+				DEE29F1021A8755D0084EA6D /* Staff.swift */,
+				DEE29F1221A876760084EA6D /* Item.swift */,
+				DE6017FC21B3F17B00279422 /* Mounstruo.swift */,
+				DE21209B21D10EF000AC5D95 /* Vidas.swift */,
+				DE2120AA21D2CC3400AC5D95 /* Dao.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		DE2120A521D174D200AC5D95 /* vistas */ = {
+			isa = PBXGroup;
+			children = (
+				DEE29F1421A87B0F0084EA6D /* VistaHero.swift */,
+				DE28BAAE21AF419200436412 /* VistaStaff.swift */,
+				DE19BEED21B3007B00A1FC44 /* VistaItem.swift */,
+				DE6017FE21B3F8FD00279422 /* VistaMounstruo.swift */,
+				DE5346BF21B9534A00EE3611 /* VistaBatalla.swift */,
+			);
+			path = vistas;
+			sourceTree = "<group>";
+		};
+		DE2120A721D174FB00AC5D95 /* estilos */ = {
+			isa = PBXGroup;
+			children = (
+				DE6017FA21B3E66E00279422 /* EstiloBoton.swift */,
+			);
+			path = estilos;
+			sourceTree = "<group>";
+		};
+		DE2120AE21D2DC0000AC5D95 /* sonidos */ = {
+			isa = PBXGroup;
+			children = (
+				DED8BF7921D691CC00FC8D38 /* empate.mp3 */,
+				DE2120A821D2C62C00AC5D95 /* ataque.mp3 */,
+				DE2120AC21D2DB1500AC5D95 /* dinero.mp3 */,
+			);
+			path = sonidos;
+			sourceTree = "<group>";
+		};
+		DE4613A221A8522E001621CE = {
+			isa = PBXGroup;
+			children = (
+				DE4613AD21A8522F001621CE /* DeepDungeonsOfDoom */,
+				DE4613C221A85230001621CE /* DeepDungeonsOfDoomTests */,
+				DE4613CD21A85230001621CE /* DeepDungeonsOfDoomUITests */,
+				DE4613AC21A8522E001621CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE4613AC21A8522E001621CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE4613AB21A8522E001621CE /* DeepDungeonsOfDoom.app */,
+				DE4613BF21A85230001621CE /* DeepDungeonsOfDoomTests.xctest */,
+				DE4613CA21A85230001621CE /* DeepDungeonsOfDoomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE4613AD21A8522F001621CE /* DeepDungeonsOfDoom */ = {
+			isa = PBXGroup;
+			children = (
+				DE2120AE21D2DC0000AC5D95 /* sonidos */,
+				DE2120A721D174FB00AC5D95 /* estilos */,
+				DE2120A521D174D200AC5D95 /* vistas */,
+				DE2120A221D1749400AC5D95 /* model */,
+				DE21209F21D1741700AC5D95 /* viewController */,
+				DE4613AE21A8522F001621CE /* AppDelegate.swift */,
+				DE19BEF121B3109D00A1FC44 /* Main.storyboard */,
+				DE4613B521A85230001621CE /* Assets.xcassets */,
+				DE4613B721A85230001621CE /* LaunchScreen.storyboard */,
+				DE4613BA21A85230001621CE /* Info.plist */,
+			);
+			path = DeepDungeonsOfDoom;
+			sourceTree = "<group>";
+		};
+		DE4613C221A85230001621CE /* DeepDungeonsOfDoomTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE4613C321A85230001621CE /* DeepDungeonsOfDoomTests.swift */,
+				DE4613C521A85230001621CE /* Info.plist */,
+			);
+			path = DeepDungeonsOfDoomTests;
+			sourceTree = "<group>";
+		};
+		DE4613CD21A85230001621CE /* DeepDungeonsOfDoomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE4613CE21A85230001621CE /* DeepDungeonsOfDoomUITests.swift */,
+				DE4613D021A85230001621CE /* Info.plist */,
+			);
+			path = DeepDungeonsOfDoomUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE4613AA21A8522E001621CE /* DeepDungeonsOfDoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE4613D321A85230001621CE /* Build configuration list for PBXNativeTarget "DeepDungeonsOfDoom" */;
+			buildPhases = (
+				DE4613A721A8522E001621CE /* Sources */,
+				DE4613A821A8522E001621CE /* Frameworks */,
+				DE4613A921A8522E001621CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeepDungeonsOfDoom;
+			productName = DeepDungeonsOfDoom;
+			productReference = DE4613AB21A8522E001621CE /* DeepDungeonsOfDoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE4613BE21A85230001621CE /* DeepDungeonsOfDoomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE4613D621A85230001621CE /* Build configuration list for PBXNativeTarget "DeepDungeonsOfDoomTests" */;
+			buildPhases = (
+				DE4613BB21A85230001621CE /* Sources */,
+				DE4613BC21A85230001621CE /* Frameworks */,
+				DE4613BD21A85230001621CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE4613C121A85230001621CE /* PBXTargetDependency */,
+			);
+			name = DeepDungeonsOfDoomTests;
+			productName = DeepDungeonsOfDoomTests;
+			productReference = DE4613BF21A85230001621CE /* DeepDungeonsOfDoomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE4613C921A85230001621CE /* DeepDungeonsOfDoomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE4613D921A85230001621CE /* Build configuration list for PBXNativeTarget "DeepDungeonsOfDoomUITests" */;
+			buildPhases = (
+				DE4613C621A85230001621CE /* Sources */,
+				DE4613C721A85230001621CE /* Frameworks */,
+				DE4613C821A85230001621CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE4613CC21A85230001621CE /* PBXTargetDependency */,
+			);
+			name = DeepDungeonsOfDoomUITests;
+			productName = DeepDungeonsOfDoomUITests;
+			productReference = DE4613CA21A85230001621CE /* DeepDungeonsOfDoomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE4613A321A8522E001621CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Pol Monleón Vives";
+				TargetAttributes = {
+					DE4613AA21A8522E001621CE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					DE4613BE21A85230001621CE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DE4613AA21A8522E001621CE;
+					};
+					DE4613C921A85230001621CE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DE4613AA21A8522E001621CE;
+					};
+				};
+			};
+			buildConfigurationList = DE4613A621A8522E001621CE /* Build configuration list for PBXProject "DeepDungeonsOfDoom" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE4613A221A8522E001621CE;
+			productRefGroup = DE4613AC21A8522E001621CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE4613AA21A8522E001621CE /* DeepDungeonsOfDoom */,
+				DE4613BE21A85230001621CE /* DeepDungeonsOfDoomTests */,
+				DE4613C921A85230001621CE /* DeepDungeonsOfDoomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE4613A921A8522E001621CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE19BEF321B3109D00A1FC44 /* Main.storyboard in Resources */,
+				DE2120A921D2C62C00AC5D95 /* ataque.mp3 in Resources */,
+				DE2120AD21D2DB1500AC5D95 /* dinero.mp3 in Resources */,
+				DE4613B921A85230001621CE /* LaunchScreen.storyboard in Resources */,
+				DED8BF7A21D691CC00FC8D38 /* empate.mp3 in Resources */,
+				DE4613B621A85230001621CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4613BD21A85230001621CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4613C821A85230001621CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE4613A721A8522E001621CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6017FB21B3E66E00279422 /* EstiloBoton.swift in Sources */,
+				DEE29F1321A876760084EA6D /* Item.swift in Sources */,
+				DE19BEEC21B2947000A1FC44 /* InventarioView.swift in Sources */,
+				DED78E5621C18BB500735597 /* BattleView.swift in Sources */,
+				DE66624B21B84575000DCC5B /* ViewControllerMain.swift in Sources */,
+				DE60180121B3FB7E00279422 /* DungeonView.swift in Sources */,
+				DE5346C021B9534A00EE3611 /* VistaBatalla.swift in Sources */,
+				DEE29F1521A87B0F0084EA6D /* VistaHero.swift in Sources */,
+				DE6017FF21B3F8FD00279422 /* VistaMounstruo.swift in Sources */,
+				DE19BEEE21B3007B00A1FC44 /* VistaItem.swift in Sources */,
+				DE28BAAF21AF419200436412 /* VistaStaff.swift in Sources */,
+				DE4613B121A8522F001621CE /* ViewController.swift in Sources */,
+				DE4613DD21A854C4001621CE /* Personaje.swift in Sources */,
+				DEE29F1121A8755D0084EA6D /* Staff.swift in Sources */,
+				DE19BEF021B30DE000A1FC44 /* ShopView.swift in Sources */,
+				DE2120AB21D2CC3400AC5D95 /* Dao.swift in Sources */,
+				DE6017FD21B3F17B00279422 /* Mounstruo.swift in Sources */,
+				DE4613AF21A8522F001621CE /* AppDelegate.swift in Sources */,
+				DE21209C21D10EF000AC5D95 /* Vidas.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4613BB21A85230001621CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4613C421A85230001621CE /* DeepDungeonsOfDoomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4613C621A85230001621CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4613CF21A85230001621CE /* DeepDungeonsOfDoomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE4613C121A85230001621CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE4613AA21A8522E001621CE /* DeepDungeonsOfDoom */;
+			targetProxy = DE4613C021A85230001621CE /* PBXContainerItemProxy */;
+		};
+		DE4613CC21A85230001621CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE4613AA21A8522E001621CE /* DeepDungeonsOfDoom */;
+			targetProxy = DE4613CB21A85230001621CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE19BEF121B3109D00A1FC44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE19BEF221B3109D00A1FC44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE4613B721A85230001621CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE4613B821A85230001621CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE4613D121A85230001621CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE4613D221A85230001621CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE4613D421A85230001621CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NDGAH9CC9U;
+				INFOPLIST_FILE = DeepDungeonsOfDoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fetema.DeepDungeonsOfDoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE4613D521A85230001621CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NDGAH9CC9U;
+				INFOPLIST_FILE = DeepDungeonsOfDoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fetema.DeepDungeonsOfDoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE4613D721A85230001621CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeepDungeonsOfDoomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fetema.DeepDungeonsOfDoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeepDungeonsOfDoom.app/DeepDungeonsOfDoom";
+			};
+			name = Debug;
+		};
+		DE4613D821A85230001621CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeepDungeonsOfDoomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fetema.DeepDungeonsOfDoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeepDungeonsOfDoom.app/DeepDungeonsOfDoom";
+			};
+			name = Release;
+		};
+		DE4613DA21A85230001621CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeepDungeonsOfDoomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fetema.DeepDungeonsOfDoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeepDungeonsOfDoom;
+			};
+			name = Debug;
+		};
+		DE4613DB21A85230001621CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeepDungeonsOfDoomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fetema.DeepDungeonsOfDoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeepDungeonsOfDoom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE4613A621A8522E001621CE /* Build configuration list for PBXProject "DeepDungeonsOfDoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE4613D121A85230001621CE /* Debug */,
+				DE4613D221A85230001621CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE4613D321A85230001621CE /* Build configuration list for PBXNativeTarget "DeepDungeonsOfDoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE4613D421A85230001621CE /* Debug */,
+				DE4613D521A85230001621CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE4613D621A85230001621CE /* Build configuration list for PBXNativeTarget "DeepDungeonsOfDoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE4613D721A85230001621CE /* Debug */,
+				DE4613D821A85230001621CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE4613D921A85230001621CE /* Build configuration list for PBXNativeTarget "DeepDungeonsOfDoomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE4613DA21A85230001621CE /* Debug */,
+				DE4613DB21A85230001621CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE4613A321A8522E001621CE /* Project object */;
+}
